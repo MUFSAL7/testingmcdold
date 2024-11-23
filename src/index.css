@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 900px;
+    height: auto;
+    /* align-items: center; */
+    text-align: center;
+    margin: 0px 0px 0px 80px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    padding-left: 100px;
+    gap: 10px;
+}
+.nav3  h6{
+    color: red;
+}
+.nav3 span{
+    color: black;
+}
+/* .nav3 button{
+    /* border: none; */
+    /* outline: none;
+
+    background-color: yellow; */
+    /* padding: 5px 30px;
+    font-size: 18px;
+} */ 
+
+.cntr1-content{
+    /* background-color: red; */
+    width: 200px;
+    height: 100p;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+}
+
+.detailsOfPair-title h3{
+    margin-right: 200px;
+    color: #000;
+    font-weight: 900;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+.detailsOfPair-title h3 span{
+    color: #333;
+    margin-right: 120px;
+}
+.detailsOfPair-details{
+    margin: 50px 20px;
+    max-width: 400px;
+    align-items: center;
+    justify-content: inherit;
+    text-align:justify;
+    color: #333;
+}
+.detailsOfPair-details span{
+    font-size: small;
+    color: #333;
+    opacity: 1px;
+}
+.more .button{
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.about{
+    width: 550px;
+    /* background: #91c71e; */
+    height: auto;
+}
+ span{
+    width: 100%;
+    /* color: rebeccapurple; */
+    font-size: 15px;
+    text-align:justify;
+}
+
+
+/* footer reponse */
+
+@media (max-width: 778px) {
+
+    #footer-container{
+        justify-content:baseline;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        /* background-color: #00000044; */
+    }
+    .about{
+        /* border: 1px solid black; */
+        width: 30%;
+        transform: translateX(-10%);
+    }
+    .services{
+        /* border: 1px solid black; */
+        transform: translateX(-30%);
+
+        width: 30%;
+        margin: 0;
+        padding: 0;
+    }
+    .community{
+        /* border: 1px solid black; */
+        transform: translateX(-20%);
+
+    }
+    .contact-us{
+        /* border: 1px solid black; */
+        transform: translateX(-80%);
+    }
+    
+    #thid-footer{
+        /* background-color: rgba(0, 0, 0, 0.17); */
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column ;
+        align-items: center;
+        text-align: center;
+
+    }
+    #thid-footer #footer-third{
+        align-items: center;
+        text-align: center;
+    } 
+    #footer-cpoyright{
+        /* border: 1px solid black; */
+        max-width: 290px;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+
+    }
+    #fourth-footer{
+        /* background-color: rgba(0, 0, 0, 0.17);
+        border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column ;
+        align-items: center;
+        text-align: center;
+
+    }
+    #footer-fourth{
+        align-items: center;
+        text-align: center;
+    }
+
+    
+
+   
+}
+
+
+/* content response */
+
+@media (max-width:500px) {
+    
+    #content{
+        display: flex;
+        /* align-items: center; */
+        /* text-align: center; */
+        /* border: 1px solid black; */
+        width: 800px;
+    }
+    #img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 700px;
+        transform: translate(5%);
+    }
+    #title{
+        font-size: 30px;
+        /* margin: 10% 50px; */
+        margin-top: 10px;
+        margin-right: 55%;
+    }
+    #title-2{
+        /* border: #000 1px solid; */
+        font-size: 30px;
+        /* margin: 10% 50px; */
+        margin-top: 10px;
+        transform: translateX(-23%);
+    }
+    #title-five{
+                /* border: #000 1px solid; */
+                font-size: 30px;
+                /* margin: 10% 50px; */
+                margin-top: 10px;
+                transform: translateX(-15%);
+    }
+    #title-five > span{
+        margin-top: 10px;
+        transform: translateX(20%);
+    }
+    #discription{
+        /* border: #000 1px solid; */
+        min-width: 650px;
+        font-size:large;
+    }
+}
+
+
+
+
+
+
+
+
+
